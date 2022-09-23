@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: -10px;
+    width: 250px;
+    height: 110%;
+    background: #FA9494;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: #F2D1D1;
+    text-align: center;
+    line-height: 70px;
+    background: #787878;
+    user-select: none;
+    width: 100rem;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #423737;
+    padding-left: 60px;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+section {
+    background: url();
+}
+
+.table{
+    margin-left: 300px;
+    position: absolute;
+    top: 30%;
+}
+
+.table h3{
+    margin-top: 40px;
+}
+
+.table tr td {
+    color: #ffff;
+    background-color: #153C77;
+    padding: 20px;
+}
+
+h4 a {
+    border-radius: 25px;
+    background-color: #D9D9D9;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+form{
+   position: absolute;
+   left: 20vw;
+   top: 300px;
+}
+ .Word {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 450px;
+    background-color: rgb(180, 180, 180);
+    padding-left: 100px;
+    color: black;
+    width: 300px;
+    height: 230px;
+    border-radius: 10%;
+    padding: 40px 40px;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <header>The Library</header>
+        <ul>
+            <li><a href="datasiswa.php"><i class=""></i>Data Siswa</a></li>
+            <li><a href="databuku.php"><i class=""></i>Data Buku</a></li>
+        </ul>
+    </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="simpandatasiswa.php" method="post">
+        <table class ="POT">
+            <h3>Tambah Data Siswa</h3>
+            <p><label>id_siswa : <input type="text" name="id_siswa"  required="required"></label></p>
+            <p><label>Nama Siswa : <input type="text" name="nama_siswa"  required="required"></label></p>
+            <p><label>Kelas  <input type="text" name="kelas"  required="required"></label></p>
+            <p><label>Jenis_kelamin : <input type="text" name="jenis_kelamin" required="required"></label></p>
+            <p><label>Tanggal_lahir : <input type="date" name="tanggal_lahir" required="required"></label></p>
+            <p><label>Alamat : <input type="text" cols="30" name="alamat" rows="5" required="required"></label></p>
+            <input type="submit" name="simpan" value="simpan">
+        </table>    
+    </form>
+</body>
+</html>
